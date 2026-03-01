@@ -1,0 +1,25 @@
+2026-02-22 01:06:50 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-02-22 01:08:38 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-02-22 01:08:39 [Thread-1] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : mulho
+2026-02-22 01:08:50 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-02-22 01:08:51 [Thread-2] INFO  org.example.server.ClientHandler - Connexion : mulho
+2026-02-22 01:11:07 [Thread-2] INFO  org.example.server.ClientHandler - Déconnexion : mulho
+2026-02-22 01:27:08 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-02-22 01:27:09 [Thread-3] INFO  org.example.server.ClientHandler - Connexion : mulho
+2026-02-22 01:27:14 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-02-22 01:28:13 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-02-22 01:28:39 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-02-22 01:28:39 [Thread-1] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : rocha
+2026-02-22 01:28:57 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-02-22 01:28:57 [Thread-2] INFO  org.example.server.ClientHandler - Connexion : rocha
+2026-02-22 01:29:02 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-02-22 06:28:31 [Thread-2] INFO  org.example.server.ClientHandler - Déconnexion : rocha
+2026-02-22 06:29:07 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-02-22 06:31:38 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-02-22 06:31:38 [Thread-1] INFO  org.example.server.ClientHandler - Connexion : mulho
+2026-02-22 06:32:14 [Thread-1] INFO  org.example.server.ClientHandler - Message de mulho à rocha : bonjour
+2026-02-22 11:04:31 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /0:0:0:0:0:0:0:1
+2026-02-22 11:04:31 [Thread-2] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+2026-02-22 11:04:48 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /0:0:0:0:0:0:0:1
+2026-02-22 11:04:48 [Thread-3] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+2026-02-22 17:58:27 [Thread-1] INFO  org.example.server.ClientHandler - Message de mulho à rocha : Bonjour

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.client.ui.LoginController"
+      stylesheets="@../css/style.css">
+
+    <!-- ═══════════════════════════════════════
+         PANNEAU GAUCHE — Branding
+         ═══════════════════════════════════════ -->
+    <VBox alignment="CENTER" spacing="22" prefWidth="320" minWidth="320"
+          style="-fx-background-color: linear-gradient(to bottom, #128C7E, #054d44); -fx-padding: 50 40;">
+
+        <!-- Logo -->
+        <StackPane alignment="CENTER">
+            <Circle radius="54" fill="#0D7A6E"/>
+            <Label text="💬" style="-fx-font-size: 50px;"/>
+        </StackPane>
+
+        <VBox spacing="8" alignment="CENTER">
+            <Label text="AppMessagerie"
+                   style="-fx-text-fill: white; -fx-font-size: 24px; -fx-font-weight: bold;"/>
+            <Label text="La messagerie interne sécurisée"
+                   style="-fx-text-fill: rgba(255,255,255,0.7); -fx-font-size: 13px;"
+                   wrapText="true" textAlignment="CENTER"/>
+        </VBox>
+
+        <VBox spacing="12">
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="✓" style="-fx-text-fill: #25D366; -fx-font-weight: bold; -fx-font-size: 14px;"/>
+                <Label text="Messagerie en temps réel"
+                       style="-fx-text-fill: rgba(255,255,255,0.85); -fx-font-size: 13px;"/>
+            </HBox>
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="✓" style="-fx-text-fill: #25D366; -fx-font-weight: bold; -fx-font-size: 14px;"/>
+                <Label text="Historique des conversations"
+                       style="-fx-text-fill: rgba(255,255,255,0.85); -fx-font-size: 13px;"/>
+            </HBox>
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="✓" style="-fx-text-fill: #25D366; -fx-font-weight: bold; -fx-font-size: 14px;"/>
+                <Label text="Mots de passe chiffrés (BCrypt)"
+                       style="-fx-text-fill: rgba(255,255,255,0.85); -fx-font-size: 13px;"/>
+            </HBox>
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="✓" style="-fx-text-fill: #25D366; -fx-font-weight: bold; -fx-font-size: 14px;"/>
+                <Label text="Messages hors-ligne livrés"
+                       style="-fx-text-fill: rgba(255,255,255,0.85); -fx-font-size: 13px;"/>
+            </HBox>
+        </VBox>
+    </VBox>
+
+    <!-- ═══════════════════════════════════════
+         PANNEAU DROIT — Formulaire
+         ═══════════════════════════════════════ -->
+    <VBox alignment="CENTER" spacing="0" HBox.hgrow="ALWAYS"
+          style="-fx-background-color: white; -fx-padding: 60 60 50 60;">
+
+        <VBox spacing="6" alignment="CENTER_LEFT" maxWidth="340">
+            <Label text="Connexion" styleClass="form-title"/>
+            <Label text="Bienvenue ! Entrez vos identifiants."
+                   styleClass="form-subtitle"/>
+        </VBox>
+
+        <Region prefHeight="28"/>
+
+        <VBox spacing="16" maxWidth="340">
+
+            <!-- Username -->
+            <VBox spacing="6">
+                <Label text="NOM D'UTILISATEUR" styleClass="field-label"/>
+                <TextField fx:id="usernameField" promptText="ex: jean.dupont"
+                           styleClass="field-input" maxWidth="Infinity"/>
+            </VBox>
+
+            <!-- Password -->
+            <VBox spacing="6">
+                <Label text="MOT DE PASSE" styleClass="field-label"/>
+                <PasswordField fx:id="passwordField" promptText="••••••••"
+                               styleClass="field-input" maxWidth="Infinity"/>
+            </VBox>
+
+            <!-- Error -->
+            <Label fx:id="errorLabel" text="" wrapText="true" maxWidth="Infinity"
+                   styleClass="error-box" managed="false" visible="false"/>
+
+            <Region prefHeight="4"/>
+
+            <!-- Login button -->
+            <Button fx:id="loginButton" text="Se connecter →" onAction="#handleLogin"
+                    styleClass="btn-primary" maxWidth="Infinity"/>
+
+        </VBox>
+
+        <Region prefHeight="24"/>
+
+        <!-- Register link -->
+        <HBox alignment="CENTER" spacing="4">
+            <Label text="Pas encore de compte ?" styleClass="form-subtitle"/>
+            <Button text="Créer un compte" onAction="#goToRegister" styleClass="btn-link"/>
+        </HBox>
+    </VBox>
+</HBox>

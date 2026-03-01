@@ -1,0 +1,270 @@
+/* ============================================================
+   AppMessagerie – Feuille de style globale
+   Palette inspirée WhatsApp Web
+   ============================================================ */
+
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-background-color: #F0F2F5;
+}
+
+/* =========================================================
+   PAGES LOGIN / REGISTER
+   ========================================================= */
+
+.form-title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111B21;
+}
+
+.form-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #8696A0;
+}
+
+.field-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #3B4A54;
+    -fx-font-weight: bold;
+}
+
+.field-input {
+    -fx-background-color: #F7F8FA;
+    -fx-border-color: #DDE1E5;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 0 14;
+    -fx-font-size: 14px;
+    -fx-pref-height: 48px;
+    -fx-text-fill: #111B21;
+    -fx-prompt-text-fill: #B0BEC5;
+}
+
+.field-input:focused {
+    -fx-border-color: #00A884;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,168,132,0.2), 8, 0.0, 0, 0);
+}
+
+/* Bouton principal */
+.btn-primary {
+    -fx-background-color: #00A884;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-pref-height: 50px;
+    -fx-background-radius: 25;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,168,132,0.4), 8, 0.0, 0, 3);
+}
+
+.btn-primary:hover {
+    -fx-background-color: #009B7D;
+    -fx-effect: dropshadow(gaussian, rgba(0,168,132,0.5), 12, 0.0, 0, 4);
+}
+
+.btn-primary:pressed {
+    -fx-background-color: #007A64;
+    -fx-effect: none;
+}
+
+.btn-primary:disabled {
+    -fx-background-color: #B0BEC5;
+    -fx-effect: none;
+}
+
+/* Bouton lien */
+.btn-link {
+    -fx-background-color: transparent;
+    -fx-text-fill: #00A884;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-padding: 0 4;
+}
+
+.btn-link:hover {
+    -fx-text-fill: #007A64;
+}
+
+/* Label d'erreur */
+.error-box {
+    -fx-background-color: #FFEBEE;
+    -fx-background-radius: 8;
+    -fx-padding: 10 14;
+    -fx-text-fill: #C62828;
+    -fx-font-size: 12px;
+}
+
+/* Label succès */
+.success-box {
+    -fx-background-color: #E8F5E9;
+    -fx-background-radius: 8;
+    -fx-padding: 10 14;
+    -fx-text-fill: #2E7D32;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* =========================================================
+   CHAT – SIDEBAR
+   ========================================================= */
+
+.sidebar {
+    -fx-background-color: white;
+    -fx-border-color: transparent #E5E7EB transparent transparent;
+    -fx-border-width: 0 1 0 0;
+}
+
+.sidebar-header {
+    -fx-background-color: #F0F2F5;
+    -fx-padding: 14 16;
+}
+
+.sidebar-title {
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111B21;
+}
+
+.section-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #8696A0;
+    -fx-font-weight: bold;
+    -fx-padding: 10 16 6 16;
+    -fx-background-color: #F7F8FA;
+}
+
+/* =========================================================
+   CHAT – ZONE DE MESSAGES
+   ========================================================= */
+
+.chat-header {
+    -fx-background-color: #F0F2F5;
+    -fx-padding: 10 18;
+    -fx-border-color: transparent transparent #E5E7EB transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.chat-name {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111B21;
+}
+
+.chat-status {
+    -fx-font-size: 12px;
+    -fx-text-fill: #00A884;
+}
+
+.chat-bg {
+    -fx-background-color: #EBE5DD;
+}
+
+.input-area {
+    -fx-background-color: #F0F2F5;
+    -fx-padding: 10 16;
+    -fx-border-color: #E5E7EB transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+}
+
+.message-input {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 24;
+    -fx-background-radius: 24;
+    -fx-padding: 0 18;
+    -fx-font-size: 14px;
+    -fx-pref-height: 46px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.07), 4, 0.0, 0, 1);
+}
+
+.message-input:focused {
+    -fx-effect: dropshadow(gaussian, rgba(0,168,132,0.18), 6, 0.0, 0, 0);
+}
+
+/* Bouton envoyer (cercle) */
+.send-btn {
+    -fx-background-color: #00A884;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 50;
+    -fx-min-width: 46px;
+    -fx-max-width: 46px;
+    -fx-min-height: 46px;
+    -fx-max-height: 46px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,168,132,0.4), 5, 0.0, 0, 2);
+}
+
+.send-btn:hover {
+    -fx-background-color: #009B7D;
+}
+
+.send-btn:pressed {
+    -fx-background-color: #007A64;
+    -fx-effect: none;
+}
+
+/* Bouton déconnexion */
+.logout-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #8696A0;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-background-radius: 50;
+    -fx-padding: 6;
+    -fx-min-width: 34px;
+    -fx-min-height: 34px;
+}
+
+.logout-btn:hover {
+    -fx-background-color: rgba(0,0,0,0.07);
+    -fx-text-fill: #E53935;
+}
+
+/* ListView – supprimer le fond gris par défaut */
+.list-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #F5F6F6;
+}
+
+.list-view .list-cell:selected,
+.list-view .list-cell:filled:selected {
+    -fx-background-color: transparent;
+}
+
+/* Scroll bar – plus fine et discrète */
+.scroll-bar:vertical {
+    -fx-pref-width: 6px;
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(0,0,0,0.18);
+    -fx-background-radius: 3;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-pref-height: 0;
+    -fx-pref-width: 0;
+}
