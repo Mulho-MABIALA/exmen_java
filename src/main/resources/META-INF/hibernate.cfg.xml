@@ -8,7 +8,7 @@
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/messagerie_db</property>
         <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">passer</property>
+        <property name="hibernate.connection.password">root</property>
 
         <!-- Dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
@@ -22,5 +22,8 @@
         <!-- Show SQL in logs -->
         <property name="hibernate.show_sql">false</property>
         <property name="hibernate.format_sql">false</property>
+
+<!--        <mapping class="org.example.model.User"/>-->
+<!--        <mapping class="org.example.model.Message"/>-->
     </session-factory>
 </hibernate-configuration>

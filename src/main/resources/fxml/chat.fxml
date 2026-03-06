@@ -8,26 +8,18 @@
             stylesheets="@../css/style.css"
             prefWidth="1050" prefHeight="680">
 
-    <!-- ══════════════════════════════════════
-         PANNEAU GAUCHE — Sidebar utilisateurs
-         ══════════════════════════════════════ -->
     <left>
         <VBox prefWidth="290" minWidth="250" styleClass="sidebar">
-
-            <!-- En-tête sidebar -->
             <HBox alignment="CENTER_LEFT" spacing="10" styleClass="sidebar-header">
                 <VBox HBox.hgrow="ALWAYS" spacing="1">
-                    <Label fx:id="currentUserLabel" text="Utilisateur"
+                    <Label fx:id="labelUtilisateurCourant" text="Utilisateur"
                            styleClass="sidebar-title"/>
                     <Label text="En ligne" style="-fx-text-fill: #00A884; -fx-font-size: 12px;"/>
                 </VBox>
-                <Button text="⏻" onAction="#handleLogout"
-                        styleClass="logout-btn">
+                <Button text="📴" onAction="#gererDeconnexion" styleClass="logout-btn">
                     <tooltip><Tooltip text="Se déconnecter"/></tooltip>
                 </Button>
             </HBox>
-
-            <!-- Barre de recherche décorative -->
             <HBox style="-fx-background-color: #F0F2F5; -fx-padding: 8 12 10 12;">
                 <HBox alignment="CENTER_LEFT" spacing="8" HBox.hgrow="ALWAYS"
                       style="-fx-background-color: white; -fx-background-radius: 20;
@@ -37,64 +29,42 @@
                            style="-fx-text-fill: #8696A0; -fx-font-size: 12px;"/>
                 </HBox>
             </HBox>
-
-            <!-- Titre section -->
             <Label text="UTILISATEURS" styleClass="section-label" maxWidth="Infinity"/>
-
-            <!-- Liste des utilisateurs -->
-            <ListView fx:id="userListView" VBox.vgrow="ALWAYS"
+            <ListView fx:id="listeVueUtilisateurs" VBox.vgrow="ALWAYS"
                       styleClass="list-view"
                       style="-fx-background-color: white;"/>
         </VBox>
     </left>
 
-    <!-- ══════════════════════════════════════
-         CENTRE — Zone de conversation
-         ══════════════════════════════════════ -->
     <center>
         <VBox styleClass="chat-bg">
-
-            <!-- En-tête conversation -->
             <HBox fx:id="chatHeader" alignment="CENTER_LEFT" spacing="12"
                   styleClass="chat-header">
-
-                <!-- Avatar du contact -->
-                <StackPane fx:id="contactAvatar"
+                <StackPane fx:id="avatarContact"
                            minWidth="42" maxWidth="42"
                            minHeight="42" maxHeight="42"/>
-
                 <VBox spacing="2" HBox.hgrow="ALWAYS">
-                    <Label fx:id="chatWithLabel" text="Sélectionnez un utilisateur"
+                    <Label fx:id="labelDiscussionAvec" text="Sélectionnez un utilisateur"
                            styleClass="chat-name"/>
-                    <Label fx:id="chatStatusLabel" text=""
+                    <Label fx:id="labelStatutDiscussion" text=""
                            styleClass="chat-status"/>
                 </VBox>
-
-                <!-- Bouton action (décoratif) -->
                 <Button text="⋮"
                         style="-fx-background-color: transparent; -fx-text-fill: #8696A0;
                                -fx-font-size: 20px; -fx-cursor: hand; -fx-border-color: transparent;
                                -fx-padding: 0 6;"/>
             </HBox>
-
-            <!-- Zone des messages -->
-            <ListView fx:id="messageListView" VBox.vgrow="ALWAYS"
+            <ListView fx:id="listeVueMessages" VBox.vgrow="ALWAYS"
                       styleClass="list-view chat-bg"/>
-
-            <!-- Zone de saisie -->
             <HBox alignment="CENTER" spacing="10" styleClass="input-area">
-                <!-- Bouton emoji (décoratif) -->
                 <Button text="😊"
                         style="-fx-background-color: transparent; -fx-font-size: 20px;
                                -fx-cursor: hand; -fx-border-color: transparent; -fx-padding: 4;"/>
-
-                <TextField fx:id="messageField"
+                <TextField fx:id="champMessage"
                            promptText="Tapez un message…"
                            styleClass="message-input"
                            HBox.hgrow="ALWAYS"/>
-
-                <!-- Bouton envoyer -->
-                <Button text="➤" onAction="#handleSend" styleClass="send-btn"/>
+                <Button text="➤" onAction="#gererEnvoi" styleClass="send-btn"/>
             </HBox>
         </VBox>
     </center>

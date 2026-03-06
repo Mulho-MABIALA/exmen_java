@@ -23,3 +23,178 @@
 2026-02-22 11:04:48 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /0:0:0:0:0:0:0:1
 2026-02-22 11:04:48 [Thread-3] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
 2026-02-22 17:58:27 [Thread-1] INFO  org.example.server.ClientHandler - Message de mulho à rocha : Bonjour
+2026-03-01 16:04:13 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-03-01 16:06:24 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 16:06:25 [Thread-1] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : Rochameg
+2026-03-01 16:06:57 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 16:06:57 [Thread-2] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-01 16:07:28 [Thread-2] INFO  org.example.server.ClientHandler - Déconnexion : Rochameg
+2026-03-01 16:07:28 [Thread-2] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-01 16:07:41 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 16:07:42 [Thread-3] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-01 16:09:38 [Thread-3] INFO  org.example.server.ClientHandler - Déconnexion : Rochameg
+2026-03-01 16:09:38 [Thread-3] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-01 16:10:06 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 16:10:07 [Thread-4] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : Mulho
+2026-03-01 16:10:21 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 16:10:22 [Thread-5] INFO  org.example.server.ClientHandler - Connexion : Mulho
+2026-03-01 16:11:02 [Thread-5] INFO  org.example.server.ClientHandler - Message de Mulho à Rochameg : Bonjour Rocha, tu vas bien ?
+2026-03-01 16:11:37 [Thread-5] INFO  org.example.server.ClientHandler - Déconnexion : Mulho
+2026-03-01 16:11:37 [Thread-5] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-01 16:11:52 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 16:11:53 [Thread-6] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-01 16:12:32 [Thread-6] INFO  org.example.server.ClientHandler - Déconnexion : Rochameg
+2026-03-01 16:12:32 [Thread-6] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-01 16:15:52 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 16:15:53 [Thread-7] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-01 16:36:19 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-03-01 16:36:57 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 16:36:58 [Thread-1] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-01 16:36:59 [Thread-1] INFO  org.example.server.ClientHandler - 1 messages en attente livrés à Rochameg
+2026-03-01 16:37:44 [Thread-1] INFO  org.example.server.ClientHandler - Message de Rochameg à Mulho : Oui �a va, et toi ?
+2026-03-01 16:38:10 [Thread-1] INFO  org.example.server.ClientHandler - Message de Rochameg à Mulho : oui �a va, et toi ?
+2026-03-01 16:38:54 [Thread-1] INFO  org.example.server.ClientHandler - Déconnexion : Rochameg
+2026-03-01 16:38:54 [Thread-1] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-01 16:39:09 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 16:39:10 [Thread-2] INFO  org.example.server.ClientHandler - Connexion : Mulho
+2026-03-01 16:39:10 [Thread-2] INFO  org.example.server.ClientHandler - 2 messages en attente livrés à Mulho
+2026-03-01 16:53:40 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-03-01 16:54:45 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 16:54:46 [Thread-1] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-01 16:55:56 [Thread-1] INFO  org.example.server.ClientHandler - Déconnexion : Rochameg
+2026-03-01 17:22:59 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-03-01 17:24:11 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 17:24:12 [Thread-1] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : Goog
+2026-03-01 17:24:31 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 17:24:39 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 17:26:00 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-03-01 17:28:30 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 17:28:31 [Thread-1] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : Good
+2026-03-01 17:28:43 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 17:28:44 [Thread-2] INFO  org.example.server.ClientHandler - Connexion : Good
+2026-03-01 17:43:05 [Thread-2] INFO  org.example.server.ClientHandler - Message de Good à Goog : �a va toi ?
+2026-03-01 17:47:07 [Thread-2] INFO  org.example.server.ClientHandler - Déconnexion : Good
+2026-03-01 17:47:42 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 17:48:04 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 17:48:04 [Thread-4] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-01 17:48:54 [Thread-4] INFO  org.example.server.ClientHandler - Message de Rochameg à Mulho : Bro ??
+2026-03-01 18:06:54 [Thread-4] INFO  org.example.server.ClientHandler - Déconnexion : Rochameg
+2026-03-01 18:07:34 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 18:07:35 [Thread-5] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-01 18:31:04 [Thread-5] INFO  org.example.server.ClientHandler - Déconnexion : Rochameg
+2026-03-01 18:31:04 [Thread-5] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-01 18:31:14 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 18:31:15 [Thread-6] INFO  org.example.server.ClientHandler - Connexion : Mulho
+2026-03-01 18:31:15 [Thread-6] INFO  org.example.server.ClientHandler - 1 messages en attente livrés à Mulho
+2026-03-01 18:31:34 [Thread-6] INFO  org.example.server.ClientHandler - Déconnexion : Mulho
+2026-03-01 18:31:34 [Thread-6] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-01 18:31:48 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-01 18:31:49 [Thread-7] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-01 18:43:54 [Thread-7] INFO  org.example.server.ClientHandler - Message de Rochameg à Goog : Salut
+2026-03-01 19:42:40 [Thread-7] INFO  org.example.server.ClientHandler - Message de Rochameg à Good : Salam
+2026-03-05 19:26:35 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-03-05 19:26:42 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 19:26:48 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 19:26:50 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 19:27:44 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 19:27:45 [Thread-4] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : ZER
+2026-03-05 19:27:54 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 19:27:55 [Thread-5] INFO  org.example.server.ClientHandler - Connexion : ZER
+2026-03-05 19:29:07 [Thread-5] INFO  org.example.server.ClientHandler - Message de ZER à Rochameg : Salut Rochameg ?
+2026-03-05 19:29:13 [Thread-5] INFO  org.example.server.ClientHandler - Déconnexion : ZER
+2026-03-05 19:29:13 [Thread-5] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-05 19:29:22 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 19:29:32 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 19:29:42 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 19:29:57 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 19:30:15 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 19:30:16 [Thread-10] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-05 19:30:16 [Thread-10] INFO  org.example.server.ClientHandler - 1 messages en attente livrés à Rochameg
+2026-03-05 21:22:04 [Thread-10] INFO  org.example.server.ClientHandler - Déconnexion : Rochameg
+2026-03-05 21:25:30 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:25:31 [Thread-11] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : JeanMegui
+2026-03-05 21:25:59 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:26:00 [Thread-12] INFO  org.example.server.ClientHandler - Connexion : JeanMegui
+2026-03-05 21:31:28 [Thread-12] INFO  org.example.server.ClientHandler - Déconnexion : JeanMegui
+2026-03-05 21:31:28 [Thread-12] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-05 21:35:33 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:35:33 [Thread-13] INFO  org.example.server.ClientHandler - Connexion : JeanMegui
+2026-03-05 21:35:37 [Thread-13] INFO  org.example.server.ClientHandler - Déconnexion : JeanMegui
+2026-03-05 21:35:37 [Thread-13] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-05 21:36:03 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:36:03 [Thread-14] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : ZERT
+2026-03-05 21:36:12 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:36:12 [Thread-15] INFO  org.example.server.ClientHandler - Connexion : ZERT
+2026-03-05 21:39:04 [Thread-15] INFO  org.example.server.ClientHandler - Déconnexion : ZERT
+2026-03-05 21:39:46 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:39:47 [Thread-16] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : TUU
+2026-03-05 21:39:56 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:39:56 [Thread-17] INFO  org.example.server.ClientHandler - Connexion : TUU
+2026-03-05 21:41:59 [Thread-17] INFO  org.example.server.ClientHandler - Déconnexion : TUU
+2026-03-05 21:42:22 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:42:23 [Thread-18] INFO  org.example.server.ClientHandler - Connexion : JeanMegui
+2026-03-05 21:42:30 [Thread-18] INFO  org.example.server.ClientHandler - Déconnexion : JeanMegui
+2026-03-05 21:42:30 [Thread-18] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-05 21:43:05 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:43:05 [Thread-19] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : ROCK
+2026-03-05 21:43:19 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:43:19 [Thread-20] INFO  org.example.server.ClientHandler - Connexion : ROCK
+2026-03-05 21:44:33 [Thread-20] INFO  org.example.server.ClientHandler - Message de ROCK à Rochameg : �a va
+2026-03-05 21:50:56 [Thread-20] INFO  org.example.server.ClientHandler - Déconnexion : ROCK
+2026-03-05 21:53:23 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:54:56 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-05 21:54:56 [Thread-22] INFO  org.example.server.ClientHandler - Connexion : Rochameg
+2026-03-05 21:54:56 [Thread-22] INFO  org.example.server.ClientHandler - 1 messages en attente livrés à Rochameg
+2026-03-06 15:17:29 [Thread-22] INFO  org.example.server.ClientHandler - Déconnexion : Rochameg
+2026-03-06 18:44:56 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-03-06 18:54:40 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-03-06 18:55:19 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:56:59 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:57:05 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:57:12 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:57:34 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:57:35 [Thread-5] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : Route
+2026-03-06 18:57:44 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:57:45 [Thread-6] INFO  org.example.server.ClientHandler - Connexion : Route
+2026-03-06 18:58:00 [Thread-6] INFO  org.example.server.ClientHandler - Déconnexion : Route
+2026-03-06 18:58:00 [Thread-6] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-06 18:58:14 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:58:15 [Thread-7] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : Muhlo
+2026-03-06 18:58:27 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:58:32 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:58:43 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:59:25 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:59:26 [Thread-11] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : Mulho
+2026-03-06 18:59:36 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 18:59:37 [Thread-12] INFO  org.example.server.ClientHandler - Connexion : Mulho
+2026-03-06 19:00:16 [Thread-12] INFO  org.example.server.ClientHandler - Message de Mulho à Route : salut
+2026-03-06 19:00:19 [Thread-12] INFO  org.example.server.ClientHandler - Déconnexion : Mulho
+2026-03-06 19:00:19 [Thread-12] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-06 19:00:29 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 19:00:30 [Thread-13] INFO  org.example.server.ClientHandler - Connexion : Route
+2026-03-06 19:00:30 [Thread-13] INFO  org.example.server.ClientHandler - 1 messages en attente livrés à Route
+2026-03-06 19:00:49 [Thread-13] INFO  org.example.server.ClientHandler - Message de Route à Mulho : Tu vas bien Mulho
+2026-03-06 19:01:08 [Thread-13] INFO  org.example.server.ClientHandler - Déconnexion : Route
+2026-03-06 19:01:08 [Thread-13] WARN  org.example.server.ClientHandler - Connexion perdue pour null : Socket closed
+2026-03-06 19:01:22 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 19:01:29 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 19:01:30 [Thread-15] INFO  org.example.server.ClientHandler - Connexion : Mulho
+2026-03-06 19:01:30 [Thread-15] INFO  org.example.server.ClientHandler - 1 messages en attente livrés à Mulho
+2026-03-06 19:05:36 [Thread-15] INFO  org.example.server.ClientHandler - Déconnexion : Mulho
+2026-03-06 19:06:07 [main] INFO  org.example.server.Server - Serveur démarré sur le port 5000
+2026-03-06 19:06:40 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 19:07:00 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 19:07:01 [Thread-2] INFO  org.example.server.ClientHandler - Nouvel utilisateur inscrit : Luck
+2026-03-06 19:07:14 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 19:07:22 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 19:07:23 [Thread-4] INFO  org.example.server.ClientHandler - Connexion : Mulho
+2026-03-06 19:12:24 [Thread-4] INFO  org.example.server.ClientHandler - Déconnexion : Mulho
+2026-03-06 19:12:51 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 19:12:52 [Thread-5] INFO  org.example.server.ClientHandler - Connexion : Mulho
+2026-03-06 19:13:22 [Thread-5] INFO  org.example.server.ClientHandler - Déconnexion : Mulho
+2026-03-06 19:13:52 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 19:13:52 [Thread-6] INFO  org.example.server.ClientHandler - Connexion : Mulho
+2026-03-06 19:23:44 [Thread-6] INFO  org.example.server.ClientHandler - Déconnexion : Mulho
+2026-03-06 19:24:12 [main] INFO  org.example.server.Server - Nouvelle connexion depuis /127.0.0.1
+2026-03-06 19:24:13 [Thread-7] INFO  org.example.server.ClientHandler - Connexion : Mulho
+2026-03-06 19:27:05 [Thread-7] INFO  org.example.server.ClientHandler - Déconnexion : Mulho
